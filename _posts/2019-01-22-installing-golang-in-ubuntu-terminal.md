@@ -22,6 +22,7 @@ date: 2019-01-22
 ```bash
     sudo mv go /usr/local
 ```
+
 # Setting up GOPATH
 * Open .profile file as follow:
 ```bash
@@ -40,6 +41,7 @@ date: 2019-01-22
 ```bash
     mkdir $HOME/goprojects
 ```
+
 # Testing Go Installation
 * Type the following command to find out the Go version. It should show the version of installed Go.
 ```bash
