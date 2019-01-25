@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installing Golang in Ubuntu Terminal"
+title: "Installing Golang on Ubuntu Terminal"
 date: 2019-01-22
 ---
 
