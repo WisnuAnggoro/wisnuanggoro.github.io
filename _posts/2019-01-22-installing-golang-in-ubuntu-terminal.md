@@ -27,7 +27,7 @@ sudo mv go /usr/local
 
 ## Setting up GOPATH
 
-* Open .profile file as follow:
+* Open ``.profile`` file as follow:
 ```bash
 sudo nano ~/.profile
 ```
@@ -51,7 +51,7 @@ mkdir $HOME/goprojects
 ```bash
 go version
 ```
-* Download HelloWorld code by running the following command:
+* Download ``HelloWorld`` code by running the following command:
 ```bash
 go get github.com/golang/example/hello
 ```
