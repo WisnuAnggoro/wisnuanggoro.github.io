@@ -97,9 +97,29 @@ git branch -a
 
 When listing all branches in both local and remote repositories, press `d` to continue to next list and press `q` to quit the list.
 
+To delete local branch, we can run the following command:
+
+```bash
+git branch -d [branch_name]
+
+```
+
+The `-d` argument stands for `--delete` which will delete the local branch only if we have already pushed and merged it to remote branches.
+
+Another delete branch command is as follow:
+
+```bash
+git branch -D [branch_name]
+```
+
+The `-D` argument stands for `--delete --force`. The preceding command will delete `branch_name` branch regardless of its push and merge status.
+
+For **SAFETY REASON**, please use only `-d` argument when deleting local branch.
+
 See also:<br />
 [git branch docs](https://git-scm.com/docs/git-branch)<br />
-[How to get the current branch name in Git?](https://stackoverflow.com/a/6245587)
+[How to get the current branch name in Git?](https://stackoverflow.com/a/6245587)<br />
+[Delete a local and a remote GIT branch](https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323)
 
 ## 12. git show-branch
 
