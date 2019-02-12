@@ -53,10 +53,9 @@ or
 export LD_LIBRARY_PATH=/usr/local/lib
 ```
 
-## Source links
+---
 
-[gRCP Gateway installation guide](https://github.com/grpc-ecosystem/grpc-gateway#installation)
-
-[Solution of undefined macro](https://github.com/jmervine/httperf/issues/1)
-
+Source links:<br />
+[gRCP Gateway installation guide](https://github.com/grpc-ecosystem/grpc-gateway#installation)<br />
+[Solution of undefined macro](https://github.com/jmervine/httperf/issues/1)<br />
 [Protobuf cannot find shared libraries](https://stackoverflow.com/a/25518702)
