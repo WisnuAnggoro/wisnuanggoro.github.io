@@ -158,7 +158,7 @@ title-separator: "-"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /notes/:title
+permalink: /notes/:title/
 paginate: 5
 
 kramdown:
