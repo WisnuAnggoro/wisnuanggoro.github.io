@@ -2,6 +2,7 @@
 layout: post
 title: "Untracking Files After Modifying gitignore"
 date: 2019-02-12
+tags: [git, gitignore]
 ---
 
 We have tracked some files but then we need to ignore them. Here the steps to untrack them all:

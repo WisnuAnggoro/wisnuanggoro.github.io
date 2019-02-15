@@ -2,6 +2,7 @@
 layout: post
 title: "VS Code Extension List for Golang Developer"
 date: 2019-01-25
+tags: [vscode, golang]
 ---
 
 ## [1. Go for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)

@@ -1,22 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-	
-	{% include head.html %}
-	
-	<body>
-		<div class="container">
-			
-			{% include header.html %}
-			
-			{{ content }}
-			
-			{% include footer.html %}
-		
-		</div> <!-- /container -->
-	
-	
-		{% include scripts.html %}
-	
-	</body>
+---
+layout: base
+---
 
-</html>
+<div class="intro-header"></div>
+
+<div role="main" class="container">
+  {{ content }}
+</div>

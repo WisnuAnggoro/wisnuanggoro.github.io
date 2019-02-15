@@ -2,6 +2,7 @@
 layout: post
 title: "Installing gRCP Gateway on Ubuntu"
 date: 2019-01-29
+tags: [golang, ubuntu, grpc]
 ---
 
 ## Preface

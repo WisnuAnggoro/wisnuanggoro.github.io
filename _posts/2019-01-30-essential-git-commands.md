@@ -2,6 +2,7 @@
 layout: post
 title: "Essential GIT Commands"
 date: 2019-01-30
+tags: [git]
 ---
 
 ## 1. git config
