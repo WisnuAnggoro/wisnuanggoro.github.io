@@ -3,7 +3,8 @@ layout: page
 title: Search
 ---
 
-This blog uses [google search](http://google.com/cse).
+This site uses [google search](http://google.com/cse).
+
 <script>
   (function() {
     var cx = '016314569204475103284:u2zjt0jvsp0';
