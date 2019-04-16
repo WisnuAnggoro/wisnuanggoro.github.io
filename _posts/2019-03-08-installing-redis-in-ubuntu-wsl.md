@@ -2,7 +2,7 @@
 layout: post
 title: "Installing Redis in Ubuntu WSL (Windows Subsystem for Linux)"
 date: 2019-03-08
-tags: [linux, ubuntu, windows, wsl]
+tags: [wsl, ubuntu, windows, linux]
 ---
 
 I found an straight-forward article about installing `Redis` in `Ubuntu 18.14` from [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04). I used the step-by-step article to install `Redis` in my `WSL` machine. However, there're several commands that cannot be run. Here's the complete step-by-step tutorial to install `Redis` on `Ubuntu WSL`:
