@@ -16,6 +16,11 @@ If there's no ssh key pair in the local machine (`$HOME/.ssh/`), generate a new 
 ssh-keygen -t rsa
 ```
 
+Or, you can attached your email to the key using this command:
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
 ## 2. Save public key to another file
 
 Use the following command to copy `id_rsa.pub` to `key.txt`:
@@ -52,4 +57,5 @@ ssh <username>@<ip-address>
 ---
 
 Source links:<br />
-[How to add an SSH key to an existing DigitalOcean droplet](https://dev.to/saunved/how-to-add-an-ssh-key-to-an-existing-digitalocean-droplet-2mob)
+[How to add an SSH key to an existing DigitalOcean droplet](https://dev.to/saunved/how-to-add-an-ssh-key-to-an-existing-digitalocean-droplet-2mob)<br />
+[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
