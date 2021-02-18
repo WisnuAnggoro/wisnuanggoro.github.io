@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basic Docker Commands"
-date: 2020-02-18
+date: 2021-02-18
 tags: [docker, devops]
 ---
 
