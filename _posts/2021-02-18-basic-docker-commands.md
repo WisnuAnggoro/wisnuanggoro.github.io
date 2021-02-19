@@ -85,7 +85,7 @@ Here the example command to stop `nginx` container we have created when running 
 docker stop de9a6
 ```
 
-**NOTE:** `de9a6` is the container ID that we get by running `docker ps` command. We don't need to provide completed container ID, instead several different first character only.
+**NOTE:** `de9a6` is the container ID that we get by running `docker ps` command. We don't need to provide completed container ID, instead the first few characters alone just so it is different from the other container ID on the host.
 
 After we stop the container and we run `docker ps -a` command, the container we've just stopped is appear as `Exited` state.
 
@@ -154,3 +154,36 @@ docker exec trusting_chatelet cat /etc/hosts
 **NOTE:** We can find the container name (`trusting_chatelet`) by using `docker ps -a` command.
 
 By running the preceding command, Docker will print the contents of the `/etc/hosts` file on the console.
+
+## 9 & 10. attach and dettach
+
+By default, when we run `docker run` command, Docker will run the container in the foreground or in an attached mode meaning we will be attached to the console or the standard out of the docker container and we will see the output of the web service on your screen.
+
+For instance, let's run the following command:
+
+```bash
+docker run ubuntu sleep 100
+```
+
+After running the preceding command, we won't be able to do anything else on this console other than view the output (although the `sleep` command doesn't produce) until this docker container stops. 
+
+Another option is to run the docker container in the **detached** mode by providing the `-d` option. Now, let's run the preceding command again and provide `-d` option as follow:
+
+```bash
+docker run -d ubuntu sleep 100
+```
+
+This will run the docker container in the background mode and we will be back to our prompt immediately.
+
+To view the running container, we can `docker ps` command. The response of mine is as follow:
+
+```bash
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+7a9647438e0b        ubuntu              "sleep 100"         10 seconds ago      Up 9 seconds                            zealous_wescoff
+```
+
+Now if we would like to attach back to the running container later run `docker attach` command and specify the name or container ID as follow:
+
+```bash
+docker attach 7a9
+```
