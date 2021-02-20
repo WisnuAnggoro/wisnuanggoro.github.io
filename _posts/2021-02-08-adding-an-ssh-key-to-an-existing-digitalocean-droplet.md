@@ -5,7 +5,7 @@ date: 2021-02-08
 tags: [digitalocean, droplet, ssh, ssh-key, ssh-keygen, bashupload]
 ---
 
-I've setup my DigitalOcean (DO) droplet so it cannot be accessed using password. However, when I replaced my local machine, I can no longer access my droplet since I've lost the private SSH Key. Fortunately, I can still access the remote server from Web Console, but it's too slow and laggy.
+I've setup my [DigitalOcean](https://m.do.co/c/bbd11b561ab2) (DO) droplet so it cannot be accessed using password. However, when I replaced my local machine, I can no longer access my droplet since I've lost the private SSH Key. Fortunately, I can still access the remote server from Web Console, but it's too slow and laggy.
 
 Here's what I do to add my current ssh key to the droplet:
 
