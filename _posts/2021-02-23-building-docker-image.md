@@ -104,4 +104,4 @@ NOTE: If you get the error like this `denied: requested access to the resource i
 
 Source links:<br />
 [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)<br />
-[Docker Credentials Store])(https://docs.docker.com/engine/reference/commandline/login/#credentials-store)
+[Docker Credentials Store](https://docs.docker.com/engine/reference/commandline/login/#credentials-store)
